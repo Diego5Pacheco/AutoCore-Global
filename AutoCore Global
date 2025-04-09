@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AutoCore Global - Especialistas em tintas para carros de alta qualidade.">
+    <title>AutoCore Global - Tintas para Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #005a87;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            float: left;
+            display: block;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x600'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .products, .contact {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .product, .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 45%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AutoCore Global</h1>
+    <p>Especialistas em Tintas para Carros</p>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="home" class="hero">
+    <h1>Transforme o visual do seu carro</h1>
+    <p>Tintas de alta qualidade e resistência para o seu veículo</p>
+</section>
+
+<section id="produtos" class="container">
+    <h2>Produtos</h2>
+    <div class="products">
+        <div class="product">
+            <h3>Tintas Metálicas</h3>
+            <p>Oferecemos uma ampla variedade de tintas metálicas para deixar seu carro com um acabamento impecável.</p>
+        </div>
+        <div class="product">
+            <h3>Tintas Perolizadas</h3>
+            <p>Cores que brilham sob a luz, criando efeitos incríveis e modernos no seu carro.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="container">
+    <h2>Contato</h2>
+    <div class="contact">
+        <div class="contact-form">
+            <h3>Envie uma mensagem</h3>
+            <form action="mailto:contato@autocoreglobal.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="contact-form">
+            <h3>Informações de Contato</h3>
+            <p><strong>Email:</strong> contato@autocoreglobal.com</p>
+            <p><strong>Telefone:</strong> +55 11 99999-9999</p>
+            <p><strong>Endereço:</strong> Rua Exemplo, 123, São Paulo, SP</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 AutoCore Global | Todos os direitos reservados</p>
+    <p><a href="https://www.autocoreglobal.com">Visite nosso site</a></p>
+</footer>
+
+</body>
+</html>
